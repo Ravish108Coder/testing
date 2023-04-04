@@ -13,11 +13,15 @@
     background-color: aqua;
 }
 .header{
-    height: 35vh;
+    height: 18vh;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     position: absolute;
     z-index: 100;
+}
+.footer{
+    position: relative;
+    height: 30vh;
 }
 .body {
     /* margin-top: 12vh; */
