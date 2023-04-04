@@ -11,6 +11,7 @@
     height: 15vh;
     width: 100%;
     background-color: aqua;
+    background-color: #E2703A;
 }
 .header{
     height: 18vh;
@@ -32,8 +33,8 @@
     height: 80vh;
     width: 100%;
     background-color: rgb(171, 35, 35);
-    background-color: #fff;
-    background-image: url('images/unsplash.jpg');
+    background-color: #EEB76B;
+    /* background-image: url('images/unsplash.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
 }
