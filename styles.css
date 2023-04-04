@@ -12,8 +12,17 @@
     width: 100%;
     background-color: aqua;
 }
-
+.header{
+    height: 35vh;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    z-index: 100;
+}
 .body {
+    /* margin-top: 12vh; */
+    position: relative;
+    top: 80px;
     height: 70vh;
     width: 100%;
     background-color: rgb(171, 35, 35);
@@ -27,8 +36,9 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+    padding: 45% 0;
     flex-wrap: wrap;
 }
 
@@ -71,4 +81,22 @@
 }
 .connect{
     margin: 5px 0;
+}
+.infoSection{
+    backdrop-filter: blur(25px);
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* backface-visibility: hidden; */
+    width: 70%;
+    margin: auto;
+    font-size: 10px;
+    padding: 5%;
+    position: absolute;
+    top: 60px;
+    left: 62px;
+    line-height: 2;
+    letter-spacing: 2;
 }
